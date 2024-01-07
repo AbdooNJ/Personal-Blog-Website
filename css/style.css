@@ -1,0 +1,39 @@
+/* Style that contain the rest: body, header, menu, buttons, content,blog,footer */
+@import url(style-div.css);
+/* Style for medium width */
+@import url(medium-style.css);
+/* Style for small width */
+@import url(small-style.css);
+/* for large screen */
+@media (min-width: 1025px) {
+  /* container style */
+  .container {
+    display: grid;
+    grid-template-columns: 200px repeat(2, 1fr);
+    grid-template-rows: 50px 2fr 2fr 75px;
+    grid-template-areas:
+      "header header header"
+      "menu content content"
+      "menu content content"
+      "footer footer footer";
+    width: 100%;
+    height: 100vh;
+  }
+  /* content style */
+  .content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 1fr;
+    grid-template-areas:
+      "par par par"
+      "blog1 blog2 blog3";
+  }
+  .blog1 {
+    grid-area: blog1;
+    background: #d1d1d1;
+    border-radius: 10px;
+    height: fit-content;
+    margin-top: 10px;
+  }
+}

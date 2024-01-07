@@ -1,0 +1,24 @@
+Fonts used in this design:
+
+Font: Montserrat
+Author: Julieta Ulanovsky,Sol Matas,Juan Pablo del Peral,Jacques Le Bailly
+Url: https://fonts.google.com/specimen/Montserrat
+-----------------------------------------------------------------------------
+
+Images used in this design:
+
+Image: blog-note.jpg
+Author: 8photo
+Describition:image that use as a figure with caption
+Url:https://www.freepik.com/free-photo/blog-notes-concept-with-wooden-blocks-pen-black-notebook-top-view_10183543.htm#query=images%20for%20blog%20website&position=0&from_view=search&track=ais&uuid=435ba1fc-55e3-41da-8637-18cfa2d5e289
+
+Image: bg.jpg
+Author: GarryKillian
+Describition:image that use as a background
+Url: https://www.freepik.com/free-vector/landing-page-abstract-design-template-website-app-colorful-abstract-minimal-wave_22974303.htm#query=website&position=2&from_view=author&uuid=9fd298a4-13cb-4b64-97cd-31e3a6783ae1
+
+
+Image: blog.jpg
+Author: Racool_studio
+Describition:image that use as a logo
+Url: https://www.freepik.com/free-photo/toy-bricks-table-with-word-blog_11260586.htm#query=blog&position=17&from_view=search&track=sph&uuid=37fd4ffd-836e-4830-b7f1-15c583d39fb6

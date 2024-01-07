@@ -1,0 +1,139 @@
+/* Body style */
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  background-color: cadetblue;
+  background-image: url("../images/bg.jpg");
+}
+/* header style */
+header {
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #606c76;
+  border-radius: 10px;
+}
+.logo {
+  height: 40px;
+}
+.logo img {
+  width: min-content;
+  height: 38px;
+  border-radius: 1rem;
+}
+header a {
+  text-decoration: none;
+  color: azure;
+}
+.sign {
+  border-radius: 1.5rem;
+  background-color: rgb(2, 179, 228);
+  padding: 10px;
+}
+/* menu style */
+.menu {
+  grid-area: menu;
+  background: #606c76;
+  border-radius: 10px;
+  height: fit-content;
+  margin-top: 10px;
+  display: grid;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 10px;
+}
+.menu ul a {
+  text-decoration: none;
+  color: white;
+}
+.follow {
+  padding: 5px;
+  background: rgb(2, 179, 228);
+  color: white;
+  cursor: pointer;
+  border: rgb(2, 179, 228);
+  margin-bottom: 10px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+}
+.subscribe {
+  padding: 5px;
+  background: white;
+  color: rgb(2, 179, 228);
+  cursor: pointer;
+  border: rgb(2, 179, 228);
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+.blog1 h2 {
+  color: rgb(2, 179, 228);
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.blog1 p {
+  padding-top: 0;
+  padding-left: 40px;
+  color: rgb(70, 95, 23);
+}
+.blog2 {
+  grid-area: blog2;
+  background: #d1d1d1;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+.blog2 h2 {
+  padding-left: 45px;
+  padding-top: 20px;
+}
+figure {
+  width: fit-content;
+  height: fit-content;
+}
+.blog2 img {
+  width: 200px;
+  height: 100px;
+}
+.blog3 {
+  grid-area: blog3;
+  background: #d1d1d1;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+.blog3 h2 {
+  padding-left: 45px;
+  padding-top: 20px;
+}
+.blog3 p {
+  padding-top: 0;
+  padding-left: 40px;
+  color: rgb(70, 95, 23);
+}
+
+/* footer style */
+footer {
+  grid-area: footer;
+  background: #606c76;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
